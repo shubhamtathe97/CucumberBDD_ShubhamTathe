@@ -14,7 +14,7 @@
               "Browser navigated to URL: http://automationpractice.com/"
             ],
             "result": {
-              "duration": 23628728500,
+              "duration": 5915205500,
               "status": "passed"
             },
             "line": 5,
@@ -27,11 +27,11 @@
         ]
       },
       {
-        "start_timestamp": "2022-07-22T09:58:15.440Z",
+        "start_timestamp": "2022-07-22T13:44:15.633Z",
         "before": [
           {
             "result": {
-              "duration": 2096830300,
+              "duration": 6036790500,
               "status": "passed"
             },
             "match": {
@@ -39,17 +39,17 @@
             }
           }
         ],
-        "line": 60,
-        "name": "Newslatter Subscription",
+        "line": 17,
+        "name": "Product Category Validation Test",
         "description": "",
-        "id": "user-can-iteract-with-the-different-functionality-of-application;newslatter-subscription",
+        "id": "user-can-iteract-with-the-different-functionality-of-application;product-category-validation-test",
         "after": [
           {
             "output": [
               "Test case is passed, no screen shot captured"
             ],
             "result": {
-              "duration": 997400,
+              "duration": 2992100,
               "status": "passed"
             },
             "match": {
@@ -57,8 +57,11 @@
             }
           },
           {
+            "output": [
+              "Browser is quit"
+            ],
             "result": {
-              "duration": 87803700,
+              "duration": 1226520700,
               "status": "passed"
             },
             "match": {
@@ -71,39 +74,64 @@
         "steps": [
           {
             "output": [
-              "News Latter Box Sucessfully validate",
-              "News Latter Button Sucessfully validate"
+              "Product list count is match and count is: 3"
             ],
             "result": {
-              "duration": 190214400,
+              "duration": 21684800,
               "status": "passed"
             },
-            "line": 61,
-            "name": "User enter mailID in newslatter box and click on button",
+            "line": 18,
+            "name": "Available product category count is 3",
             "match": {
-              "location": "pom.cucumberBDD.framework.stepdefs.StepDefs.user_enter_mail_id_in_newslatter_box_and_click_on_button()"
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 36
+                }
+              ],
+              "location": "pom.cucumberBDD.framework.stepdefs.StepDefs.available_product_category_count_is(java.lang.Integer)"
             },
             "keyword": "When "
           },
           {
             "output": [
-              "Validate Failed message for subscription is: Newsletter : Invalid email address."
+              "All provided product category list get match"
             ],
             "result": {
-              "duration": 30215657400,
+              "duration": 7399810400,
               "status": "passed"
             },
-            "line": 62,
-            "name": "User get the \"successfully subscribed\" massage",
+            "line": 19,
+            "name": "User able to see the productLinkText and verify the associated productLinkUrlText",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"successfully subscribed\"",
-                  "offset": 13
-                }
-              ],
-              "location": "pom.cucumberBDD.framework.stepdefs.StepDefs.user_get_the_massage(java.lang.String)"
+              "location": "pom.cucumberBDD.framework.stepdefs.StepDefs.user_able_to_see_the_product_link_text_and_verify_the_associated_product_link_url_text(java.util.List\u003cjava.util.Map\u003cjava.lang.String, java.lang.String\u003e\u003e)"
             },
+            "rows": [
+              {
+                "cells": [
+                  "productLinkText",
+                  "productLinkUrlText"
+                ]
+              },
+              {
+                "cells": [
+                  "Women",
+                  "id_category\u003d3"
+                ]
+              },
+              {
+                "cells": [
+                  "Dresses",
+                  "id_category\u003d8"
+                ]
+              },
+              {
+                "cells": [
+                  "T-shirts",
+                  "id_category\u003d5"
+                ]
+              }
+            ],
             "keyword": "Then "
           }
         ],
@@ -112,7 +140,7 @@
             "name": "@endtoend"
           },
           {
-            "name": "@ten"
+            "name": "@three"
           }
         ]
       }

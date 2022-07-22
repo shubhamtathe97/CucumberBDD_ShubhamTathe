@@ -48,7 +48,8 @@ public class StepDefs {
 	@After(order=1)
 	public void cleanUp(){
 
-		WebDriverFactory.quitDriver();	
+		WebDriverFactory.quitDriver();
+		scn.log("Browser is quit");
 	}
 
 	@After(order=2)

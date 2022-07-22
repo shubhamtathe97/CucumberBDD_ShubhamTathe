@@ -103,8 +103,12 @@ public class LandingPageObjects {
 		String productUrlText = proInfo.get(index).get("productLinkUrlText");
 
 		WebElement ProListElement2 = driver.findElement(By.xpath("//ul[@class='sf-menu clearfix menu-content sf-js-enabled sf-arrows']/li/a[text()='"+productTextHyperLink+"']"));
+		wait =new WebDriverWait(driver, 20);
+		wait.until(ExpectedConditions.visibilityOf(ProListElement2));
+		
 		ProListElement2.click();
 
+		wait.until(ExpectedConditions.urlContains(productUrlText));
 		if(driver.getCurrentUrl().contains(productUrlText)) {
 			Assert.assertTrue(true);
 		}
@@ -235,10 +239,14 @@ public class LandingPageObjects {
 
 		int exp=7;
 		int act=0;
+		wait =new WebDriverWait(driver, 20);
 		List<WebElement> prolist=driver.findElements(SearchProdList);
+		wait.until(ExpectedConditions.visibilityOfAllElements(prolist));
 		for(int i=0; i<prolist.size(); i++) {
 
 			act++;
+			logger.info(i+1 +". "+ prolist.get(i).getText());
+			scn.log(i+1 +". "+ prolist.get(i).getText());
 			System.out.println((i+1)+" "+prolist.get(i).getText());			
 		}
 		Assert.assertEquals("Search product count does not match",exp, act);
@@ -251,13 +259,16 @@ public class LandingPageObjects {
 
 		int ActaulMatchCount=0;
 		String Searchproduct="Dress";
-
+		wait =new WebDriverWait(driver, 20);
 		List<WebElement> prolist=driver.findElements(SearchProdList);
+		wait.until(ExpectedConditions.visibilityOfAllElements(prolist));
 		for(int i=0; i<prolist.size(); i++) {
 
 			if(prolist.get(i).getText().contains(Searchproduct)) {
 
-				System.out.println((i+1)+" "+prolist.get(i).getText());			
+				System.out.println((i+1)+" "+prolist.get(i).getText());
+				logger.info(i+1 +". "+ prolist.get(i).getText());
+        		scn.log(i+1 +". "+ prolist.get(i).getText());
 				ActaulMatchCount++;
 			}			
 		}
@@ -293,7 +304,7 @@ public class LandingPageObjects {
 
 	// Scenario-9
 	public void ValidateTwitterAccName(String ExpAccName) {
-		
+
 		String ActualAccountName=getElement(TwitterAccElement).getText();
 		Assert.assertEquals("Twitter Account Name Does Not Match",ActualAccountName,ExpAccName );
 		scn.log("Sucessfully Validate twitter Account Name Actual Result is :"+ActualAccountName);

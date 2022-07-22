@@ -10,7 +10,7 @@ import io.cucumber.junit.CucumberOptions;
 
 		features = "classpath:features",                 //to tell cucumber where is ur feature file
 		glue     ="pom.cucumberBDD.framework.stepdefs",  // to tell cucumber where is ur step def code
-		tags     ="@endtoend",                           // to tell which tagged feature file to execute
+		tags     ="@three",                           // to tell which tagged feature file to execute
 		plugin   = {"pretty",                            // to generate reports
 				"html:target/html/htmlreport.html",
 				"json:target/json/jsonreport.json"
