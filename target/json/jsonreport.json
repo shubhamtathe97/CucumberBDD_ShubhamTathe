@@ -1,0 +1,136 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Navigation to the URL",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "output": [
+              "Browser navigated to URL: http://automationpractice.com/"
+            ],
+            "result": {
+              "duration": 23628728500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigated to the landing page url",
+            "match": {
+              "location": "pom.cucumberBDD.framework.stepdefs.StepDefs.user_navigated_to_the_landing_page_url()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-22T09:58:15.440Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2096830300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "pom.cucumberBDD.framework.stepdefs.StepDefs.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 60,
+        "name": "Newslatter Subscription",
+        "description": "",
+        "id": "user-can-iteract-with-the-different-functionality-of-application;newslatter-subscription",
+        "after": [
+          {
+            "output": [
+              "Test case is passed, no screen shot captured"
+            ],
+            "result": {
+              "duration": 997400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "pom.cucumberBDD.framework.stepdefs.StepDefs.takeScreenShot(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 87803700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "pom.cucumberBDD.framework.stepdefs.StepDefs.cleanUp()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "output": [
+              "News Latter Box Sucessfully validate",
+              "News Latter Button Sucessfully validate"
+            ],
+            "result": {
+              "duration": 190214400,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "User enter mailID in newslatter box and click on button",
+            "match": {
+              "location": "pom.cucumberBDD.framework.stepdefs.StepDefs.user_enter_mail_id_in_newslatter_box_and_click_on_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "output": [
+              "Validate Failed message for subscription is: Newsletter : Invalid email address."
+            ],
+            "result": {
+              "duration": 30215657400,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "User get the \"successfully subscribed\" massage",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"successfully subscribed\"",
+                  "offset": 13
+                }
+              ],
+              "location": "pom.cucumberBDD.framework.stepdefs.StepDefs.user_get_the_massage(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@endtoend"
+          },
+          {
+            "name": "@ten"
+          }
+        ]
+      }
+    ],
+    "name": "User can iteract with the different functionality of application",
+    "description": "",
+    "id": "user-can-iteract-with-the-different-functionality-of-application",
+    "keyword": "Feature",
+    "uri": "classpath:features/Assignment.feature",
+    "tags": [
+      {
+        "name": "@endtoend",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
