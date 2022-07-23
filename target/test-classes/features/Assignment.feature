@@ -2,21 +2,21 @@
 Feature: User can iteract with the different functionality of application
 
   Background: Navigation to the URL
-    Given     User navigated to the landing page url
+  Given       User navigated to the landing page url
 
   @one
   Scenario: URL Redirection Test
-    Given   User able to see the landing page 
-    And     Landing page must be contain "http://automationpractice.com/index.php"
+  Given     User able to see the landing page 
+  And       Landing page must be contain "http://automationpractice.com/index.php"
     
   @two  
   Scenario: Landing Page Title Tset
-    Given   Landing page title must be "My Store"
+  Given     Landing page title must be "My Store"
     
   @three 
   Scenario: Product Category Validation Test
-    When    Available product category count is 3
-    Then    User able to see the productLinkText and verify the associated productLinkUrlText
+  When      Available product category count is 3
+  Then      User able to see the productLinkText and verify the associated productLinkUrlText
     | productLinkText | productLinkUrlText|
     | Women    	      | id_category=3 		|
     | Dresses         | id_category=8 	  |

@@ -14,7 +14,7 @@
               "Browser navigated to URL: http://automationpractice.com/"
             ],
             "result": {
-              "duration": 5915205500,
+              "duration": 25332599400,
               "status": "passed"
             },
             "line": 5,
@@ -27,11 +27,228 @@
         ]
       },
       {
-        "start_timestamp": "2022-07-22T13:44:15.633Z",
+        "start_timestamp": "2022-07-23T11:09:32.780Z",
         "before": [
           {
             "result": {
-              "duration": 6036790500,
+              "duration": 5844295700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "pom.cucumberBDD.framework.stepdefs.StepDefs.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "URL Redirection Test",
+        "description": "",
+        "id": "user-can-iteract-with-the-different-functionality-of-application;url-redirection-test",
+        "after": [
+          {
+            "output": [
+              "Test case is passed, no screen shot captured"
+            ],
+            "result": {
+              "duration": 1997200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "pom.cucumberBDD.framework.stepdefs.StepDefs.takeScreenShot(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "output": [
+              "Browser is quit"
+            ],
+            "result": {
+              "duration": 3296231400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "pom.cucumberBDD.framework.stepdefs.StepDefs.cleanUp()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "output": [
+              "Page validation successfull. actual Landing page Element is: My Store"
+            ],
+            "result": {
+              "duration": 29945200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User able to see the landing page",
+            "match": {
+              "location": "pom.cucumberBDD.framework.stepdefs.StepDefs.user_able_to_see_the_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "output": [
+              "Page URL validation successfull. Actual URL: http://automationpractice.com/index.php"
+            ],
+            "result": {
+              "duration": 4868000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Landing page must be contain \"http://automationpractice.com/index.php\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://automationpractice.com/index.php\"",
+                  "offset": 29
+                }
+              ],
+              "location": "pom.cucumberBDD.framework.stepdefs.StepDefs.landing_page_must_be_contain(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@endtoend"
+          },
+          {
+            "name": "@one"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Navigation to the URL",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "output": [
+              "Browser navigated to URL: http://automationpractice.com/"
+            ],
+            "result": {
+              "duration": 22233857500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigated to the landing page url",
+            "match": {
+              "location": "pom.cucumberBDD.framework.stepdefs.StepDefs.user_navigated_to_the_landing_page_url()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-23T11:10:07.405Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4128829300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "pom.cucumberBDD.framework.stepdefs.StepDefs.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Landing Page Title Tset",
+        "description": "",
+        "id": "user-can-iteract-with-the-different-functionality-of-application;landing-page-title-tset",
+        "after": [
+          {
+            "output": [
+              "Test case is passed, no screen shot captured"
+            ],
+            "result": {
+              "duration": 1994200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "pom.cucumberBDD.framework.stepdefs.StepDefs.takeScreenShot(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "output": [
+              "Browser is quit"
+            ],
+            "result": {
+              "duration": 3455600700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "pom.cucumberBDD.framework.stepdefs.StepDefs.cleanUp()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "output": [
+              "Page title validation successfull. Actual title: My Store"
+            ],
+            "result": {
+              "duration": 3683800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Landing page title must be \"My Store\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"My Store\"",
+                  "offset": 27
+                }
+              ],
+              "location": "pom.cucumberBDD.framework.stepdefs.StepDefs.landing_page_title_must_be(java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@endtoend"
+          },
+          {
+            "name": "@two"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Navigation to the URL",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "output": [
+              "Browser navigated to URL: http://automationpractice.com/"
+            ],
+            "result": {
+              "duration": 22223609300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigated to the landing page url",
+            "match": {
+              "location": "pom.cucumberBDD.framework.stepdefs.StepDefs.user_navigated_to_the_landing_page_url()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-23T11:10:37.247Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3745349600,
               "status": "passed"
             },
             "match": {
@@ -49,7 +266,6 @@
               "Test case is passed, no screen shot captured"
             ],
             "result": {
-              "duration": 2992100,
               "status": "passed"
             },
             "match": {
@@ -61,7 +277,7 @@
               "Browser is quit"
             ],
             "result": {
-              "duration": 1226520700,
+              "duration": 1470020900,
               "status": "passed"
             },
             "match": {
@@ -77,7 +293,7 @@
               "Product list count is match and count is: 3"
             ],
             "result": {
-              "duration": 21684800,
+              "duration": 24935500,
               "status": "passed"
             },
             "line": 18,
@@ -98,7 +314,7 @@
               "All provided product category list get match"
             ],
             "result": {
-              "duration": 7399810400,
+              "duration": 42668519400,
               "status": "passed"
             },
             "line": 19,
@@ -141,6 +357,843 @@
           },
           {
             "name": "@three"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Navigation to the URL",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "output": [
+              "Browser navigated to URL: http://automationpractice.com/"
+            ],
+            "result": {
+              "duration": 22729165100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigated to the landing page url",
+            "match": {
+              "location": "pom.cucumberBDD.framework.stepdefs.StepDefs.user_navigated_to_the_landing_page_url()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-23T11:11:47.392Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3466996800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "pom.cucumberBDD.framework.stepdefs.StepDefs.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "Landing Page Application Logo Display Test",
+        "description": "",
+        "id": "user-can-iteract-with-the-different-functionality-of-application;landing-page-application-logo-display-test",
+        "after": [
+          {
+            "output": [
+              "Test case is passed, no screen shot captured"
+            ],
+            "result": {
+              "duration": 995200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "pom.cucumberBDD.framework.stepdefs.StepDefs.takeScreenShot(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "output": [
+              "Browser is quit"
+            ],
+            "result": {
+              "duration": 3971010900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "pom.cucumberBDD.framework.stepdefs.StepDefs.cleanUp()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "output": [
+              "Page validation successfull. actual Landing page Element is: My Store"
+            ],
+            "result": {
+              "duration": 3989000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User on landing page or home page",
+            "match": {
+              "location": "pom.cucumberBDD.framework.stepdefs.StepDefs.user_on_landing_page_or_home_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "output": [
+              "Checking the Landing page LOGO is Avaliable or Not",
+              "Landing Page LOGO is Successfully Validate"
+            ],
+            "result": {
+              "duration": 42886000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User must able to see the landing page logo",
+            "match": {
+              "location": "pom.cucumberBDD.framework.stepdefs.StepDefs.user_must_able_to_see_the_landing_page_logo()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@endtoend"
+          },
+          {
+            "name": "@four"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Navigation to the URL",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "output": [
+              "Browser navigated to URL: http://automationpractice.com/"
+            ],
+            "result": {
+              "duration": 21936896900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigated to the landing page url",
+            "match": {
+              "location": "pom.cucumberBDD.framework.stepdefs.StepDefs.user_navigated_to_the_landing_page_url()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-23T11:12:17.617Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3744878600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "pom.cucumberBDD.framework.stepdefs.StepDefs.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 32,
+        "name": "Validate Application Logo Height On Landing Page",
+        "description": "",
+        "id": "user-can-iteract-with-the-different-functionality-of-application;validate-application-logo-height-on-landing-page",
+        "after": [
+          {
+            "output": [
+              "Test case is passed, no screen shot captured"
+            ],
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "pom.cucumberBDD.framework.stepdefs.StepDefs.takeScreenShot(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "output": [
+              "Browser is quit"
+            ],
+            "result": {
+              "duration": 3479441200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "pom.cucumberBDD.framework.stepdefs.StepDefs.cleanUp()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "output": [
+              "Checking the Landing page LOGO is Avaliable or Not",
+              "Landing Page LOGO is Successfully Validate"
+            ],
+            "result": {
+              "duration": 39932300,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "User able to see the logo on landing page",
+            "match": {
+              "location": "pom.cucumberBDD.framework.stepdefs.StepDefs.user_able_to_see_the_logo_on_landing_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "output": [
+              "Checking the Landing page LOGO Height",
+              "Landing Page LOGO Actual Height:99 And Expected is:99 is Match"
+            ],
+            "result": {
+              "duration": 27815300,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Landing page logo height must be match",
+            "match": {
+              "location": "pom.cucumberBDD.framework.stepdefs.StepDefs.landing_page_logo_height_must_be_match()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@endtoend"
+          },
+          {
+            "name": "@five"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Navigation to the URL",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "output": [
+              "Browser navigated to URL: http://automationpractice.com/"
+            ],
+            "result": {
+              "duration": 23025060800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigated to the landing page url",
+            "match": {
+              "location": "pom.cucumberBDD.framework.stepdefs.StepDefs.user_navigated_to_the_landing_page_url()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-23T11:12:46.854Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3804308900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "pom.cucumberBDD.framework.stepdefs.StepDefs.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 37,
+        "name": "Validate Application Logo Width On Landing Page",
+        "description": "",
+        "id": "user-can-iteract-with-the-different-functionality-of-application;validate-application-logo-width-on-landing-page",
+        "after": [
+          {
+            "output": [
+              "Test case is passed, no screen shot captured"
+            ],
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "pom.cucumberBDD.framework.stepdefs.StepDefs.takeScreenShot(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "output": [
+              "Browser is quit"
+            ],
+            "result": {
+              "duration": 1294947200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "pom.cucumberBDD.framework.stepdefs.StepDefs.cleanUp()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "output": [
+              "Checking the Landing page LOGO is Avaliable or Not",
+              "Landing Page LOGO is Successfully Validate"
+            ],
+            "result": {
+              "duration": 38895800,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "User able to see the logo on landing page",
+            "match": {
+              "location": "pom.cucumberBDD.framework.stepdefs.StepDefs.user_able_to_see_the_logo_on_landing_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "output": [
+              "Checking the Landing page LOGO Width",
+              "Landing Page LOGO Actual Width:350 And Expected is:350 is Match"
+            ],
+            "result": {
+              "duration": 13954900,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Landing page logo width must be match",
+            "match": {
+              "location": "pom.cucumberBDD.framework.stepdefs.StepDefs.landing_page_logo_width_must_be_match()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@endtoend"
+          },
+          {
+            "name": "@six"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Navigation to the URL",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "output": [
+              "Browser navigated to URL: http://automationpractice.com/"
+            ],
+            "result": {
+              "duration": 36808635000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigated to the landing page url",
+            "match": {
+              "location": "pom.cucumberBDD.framework.stepdefs.StepDefs.user_navigated_to_the_landing_page_url()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-23T11:13:15.042Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3809024500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "pom.cucumberBDD.framework.stepdefs.StepDefs.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 42,
+        "name": "SignIN Page Title Validation Test",
+        "description": "",
+        "id": "user-can-iteract-with-the-different-functionality-of-application;signin-page-title-validation-test",
+        "after": [
+          {
+            "output": [
+              "Test case is passed, no screen shot captured"
+            ],
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "pom.cucumberBDD.framework.stepdefs.StepDefs.takeScreenShot(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "output": [
+              "Browser is quit"
+            ],
+            "result": {
+              "duration": 1322932600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "pom.cucumberBDD.framework.stepdefs.StepDefs.cleanUp()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "output": [
+              "Page validation successfull. actual Landing page Element is: My Store"
+            ],
+            "result": {
+              "duration": 2989400,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "User able to see the landing page",
+            "match": {
+              "location": "pom.cucumberBDD.framework.stepdefs.StepDefs.user_able_to_see_the_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "output": [
+              "Checking the SignIn button is Avaliable on Landing page or Not",
+              "SignIn button is Avaliable and Successfully Validate"
+            ],
+            "result": {
+              "duration": 30916900,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "User Able to See the SignIn button on landing page",
+            "match": {
+              "location": "pom.cucumberBDD.framework.stepdefs.StepDefs.user_able_to_see_the_sign_in_button_on_landing_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "SignIn button is display and Successfully click on it",
+              "After click On SignIn Page Title Validate Successfully"
+            ],
+            "result": {
+              "duration": 20191417700,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "User click on SignIn Btn next page title must be \"Login - My Store\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Login - My Store\"",
+                  "offset": 49
+                }
+              ],
+              "location": "pom.cucumberBDD.framework.stepdefs.StepDefs.user_click_on_sign_in_btn_next_page_title_must_be(java.lang.String)"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@endtoend"
+          },
+          {
+            "name": "@seven"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Navigation to the URL",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "output": [
+              "Browser navigated to URL: http://automationpractice.com/"
+            ],
+            "result": {
+              "duration": 471569600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigated to the landing page url",
+            "match": {
+              "location": "pom.cucumberBDD.framework.stepdefs.StepDefs.user_navigated_to_the_landing_page_url()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-23T11:14:17.217Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3738677000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "pom.cucumberBDD.framework.stepdefs.StepDefs.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 48,
+        "name": "Search product By Any Name and Validate How Many Product Matches With Name",
+        "description": "",
+        "id": "user-can-iteract-with-the-different-functionality-of-application;search-product-by-any-name-and-validate-how-many-product-matches-with-name",
+        "after": [
+          {
+            "embeddings": [
+              {
+                "data": "iVBORw0KGgoAAAANSUhEUgAABVYAAAKDCAYAAADxbVEAAAAgAElEQVR4XuzdUahsV3kH8Ml7ixjpg1IaMHloqdBCMYoh0oo1IBZpA4nWICkFTQoiRRSThxCCpCGpFCkYE7QNJWINFBFF0BRbDEpifVAQkodYSCnxobQ+6HvqN2WdrrPumr1nzj3nzvfd/A6Umjsze3/7962958z/rFn7mld++bPxQ4AAAQIECBAgQIAAAQIECBAgQIAAAQJ7C1wjWN3byhMJECBAgAABAgQIECBAgAABAgQIECCwFRCsGggECBAgQIAAAQIECBAgQIAAAQIECBA4UECweiCYpxMgQIAAAQIECBAgQIAAAQIECBAgQECwagwQIECAAAECBAgQIECAAAECBAgQIEDgQAHB6oFgnk6AAAECBAgQIECAAAECBAgQIECAAAHBqjFAgAABAgQIECBAgAABAgQIECBAgACBAwUEqweCeToBAgQIECBAgAABAgQIECBAgAABAgQEq8YAAQIECBAgQIAAAQIECBAgQIAAAQIEDhQQrB4I5ukECBAgQIAAAQIECBAgQIAAAQIECBAQrBoDBAgQIECAAAECBAgQIECAAAECBAgQOFBAsHogmKcTIECAAAECBAgQIECAAAECBAgQIEBAsGoMECBAgAABAgQIECBAgAABAgQIECBA4EABweqBYJ5OgAABAgQIECBAgAABAgQIECBAgAABwaoxQIAAAQIECBAgQIAAAQIECBAgQIAAgQMFBKsHgnk6AQIECBAgQIAAAQIECBAgQIAAAQIEBKvGAAECBAgQIECAAAECBAgQIECAAAECBA4UWA1WP/GJT2weeeSRgzb7K7/yK5vf/u3f3rzmNa/Z/PEf//Hmtttu21x77bUHbcOTcwtcc801exf4zW9+c/Oud71r7+f/z//8z+buu+/ePPXUU5vXv/71m69+9aubN7/5zXu//ryf+OUvf3nzl3/5l5uf/vSnmw996EObxx577Lx3sTnkPHvLW96yefbZZ49aQ9v51Xyuf+tb39rccsstlzhflP+hDX3rW9+6ee6559LWd+jxeD4BAgQIECBAgAABAgQIEKgmsBqstgOKkOHOO+/chkv9z8c//vHNww8/vP2nCMSefvrpzf3337954YUXTp6WIRyr1pgK9Ua/77nnns3jjz9+SbkRpH72s5/dXH/9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EKweEd+uCRAgQIAAAQIECBAgQIAAAQIECBCoKSBYrdk3VRMgQIAAAQIECBAgQIAAAQIECBAgcEQBweoR8e2aAAECBAgQIECAAAECBAgQIECAAIGaAoLVmn1TNQECBAgQIECAAAECBAgQIECAAAECRxQQrB4R364JECBAgAABAgQIECBAgAABAgQIEKgpIFit2TdVEyBAgAABAgQIECBAgAABAgQIECBwRAHB6hHx7ZoAAQIECBAgQIAAAQIECBAgQIAAgZoCgtWafVM1AQIECBAgQIAAAQIECBAgQIAAAQJHFBCsHhHfrgkQIECAAAECBAgQIECAAAECBAgQqCkgWK3ZN1UTIECAAAECBAgQIECAAAECBAgQIHBEAcHqEfHtmgABAgQIECBAgAABAgQIECBAgACBmgKC1Zp9UzUBAgQIECBAgAABAgQIECBAgAABAkcUEKweEd+uCRAgQIAAAQIECBAgQIAAAQIECBCoKSBYrdk3VRMgQIAAAQIECBAgQIAAAQIECBAgcEQBweoR8e2aAAECBAgQIECAAAECBAgQIECAAIGaAoLVmn1TNQECBAgQIECAAAECBAgQIECAAAECRxQQrB4R364JECBAgAABAgQIECBAgAABAgQIEKgpsBqsfu5zn9vcfffdi0f3zW9+c/Oud71rc80112weffTRzV133ZVG41vf+tbmlltu2bz44oub66+//qC6PvGJT2weeeSRzSuvvHLQ63Y9+by3dy5FJdtIjKGPf/zjm4cffnhb2e2337555plnNi+//HKySjeb6OeTTz65s7af/OQnmxtuuCHdOXERkMb2Rajm3eZb3/rWbXHPPvts3iIPrOwNb3jD5uabb958+ctfPvCVm83lvPbgnSV+Qft9oX+/PY+xMr4vHEIQ7yFPPfXUJS95/etff+ra/Wq6Xh/it+9z2+9a7ffBfV/XP895dBY1ryFAgAABAgQIEDi2wGqwGoFJ/LSga/zFNz60/MEf/MFJ+JopWG2/6Ef9ZwlWj92cV/v+2wfi8QNwBpcWJO6qrX1Ij1oznRMZ7NRAIJtAvK/99Kc/3dx2220HB6uX89psDpdTT/9H2Gzvt2No2l+f4w+nrteX0/nzea3z6HwcbYUAAQIECBAgQODKC+wVrLZQNcobg9X4QPL0009vZ6lebTNWZ+2I2TfHmKUVIeODDz548Kzb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vN8Tx+U64uhmX9s/7lHbOwECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQmgp2zwAAIABJREFUIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAEC/9uOHdMAAAAgDPPvGhssqQNSvgUEhNXASSYSIECAAAECBAgQIECAAAECBAgQIPAlIKx+/WENAQIECBAgQIAAAQIECBAgQIAAAQIBAWE1cJKJBAgQIECAAAECBAgQIECAAAECBAh8CQirX39YQ4AAAQIECBAgQIAAAQIECBAgQIBAQEBYDZxkIgECBAgQIECAAAECBAgQIECAAAECXwLC6tcf1hAgQIAAAQIECBAgQIAAAQIECBAgEBAQVgMnmUiAAAECBAgQIECAAAECBAgQIECAwJeAsPr1hzUECBAgQIAAAQIECBAgQIAAAQIECAQEhNXASSYSIECAAAECBAgQIECAAAECBAgQIPAlIKx+/WENAQKi+BmHAAAD10lEQVQECBAgQIAAAQIECBAgQIAAAQIBAWE1cJKJBAgQIECAAAECBAgQIECAAAECBAh8CQirX39YQ4AAAQIECBAgQIAAAQIECBAgQIBAQEBYDZxkIgECBAgQIECAAAECBAgQIECAAAECXwLC6tcf1hAgQIAAAQIECBAgQIAAAQIECBAgEBAQVgMnmUiAAAECBAgQIECAAAECBAgQIECAwJeAsPr1hzUECBAgQIAAAQIECBAgQIAAAQIECAQEhNXASSYSIECAAAECBAgQIECAAAECBAgQIPAlIKx+/WENAQIECBAgQIAAAQIECBAgQIAAAQIBAWE1cJKJBAgQIECAAAECBAgQIECAAAECBAh8CQirX39YQ4AAAQIECBAgQIAAAQIECBAgQIBAQEBYDZxkIgECBAgQIECAAAECBAgQIECAAAECXwLC6tcf1hAgQIAAAQIECBAgQIAAAQIECBAgEBAQVgMnmUiAAAECBAgQIECAAAECBAgQIECAwJeAsPr1hzUECBAgQIAAAQIECBAgQIAAAQIECAQEhNXASSYSIECAAAECBAgQIECAAAECBAgQIPAlIKx+/WENAQIECBAgQIAAAQIECBAgQIAAAQIBAWE1cJKJBAgQIECAAAECBAgQIECAAAECBAh8CQirX39YQ4AAAQIECBAgQIAAAQIECBAgQIBAQEBYDZxkIgECBAgQIECAAAECBAgQIECAAAECXwLC6tcf1hAgQIAAAQIECBAgQIAAAQIECBAgEBAQVgMnmUiAAAECBAgQIECAAAECBAgQIECAwJeAsPr1hzUECBAgQIAAAQIECBAgQIAAAQIECAQEhNXASSYSIECAAAECBAgQIECAAAECBAgQIPAlIKx+/WENAQIECBAgQIAAAQIECBAgQIAAAQIBAWE1cJKJBAgQIECAAAECBAgQIECAAAECBAh8CQirX39YQ4AAAQIECBAgQIAAAQIECBAgQIBAQEBYDZxkIgECBAgQIECAAAECBAgQIECAAAECXwLC6tcf1hAgQIAAAQIECBAgQIAAAQIECBAgEBAQVgMnmUiAAAECBAgQIECAAAECBAgQIECAwJeAsPr1hzUECBAgQIAAAQIECBAgQIAAAQIECAQEhNXASSYSIECAAAECBAgQIECAAAECBAgQIPAlIKx+/WENAQIECBAgQIAAAQIECBAgQIAAAQIBAWE1cJKJBAgQIECAAAECBAgQIECAAAECBAh8CQirX39YQ4AAAQIECBAgQIAAAQIECBAgQIBAQEBYDZxkIgECBAgQIECAAAECBAgQIECAAAECXwIDbjhs/aJgjMgAAAAASUVORK5CYII\u003d",
+                "mime_type": "image/png",
+                "name": "Failed Step Name: Search product By Any Name and Validate How Many Product Matches With Name"
+              }
+            ],
+            "result": {
+              "duration": 31011500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "pom.cucumberBDD.framework.stepdefs.StepDefs.takeScreenShot(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "output": [
+              "Browser is quit"
+            ],
+            "result": {
+              "duration": 1093967800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "pom.cucumberBDD.framework.stepdefs.StepDefs.cleanUp()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: Unable to locate element: //input[@placeholder\u003d\u0027Search\u0027]\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-N06IHNQ\u0027, ip: \u0027192.168.3.105\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.2\u0027\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 102.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220705093820, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 12888, moz:profile: C:\\Users\\shital\\AppData\\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 09bdc993-4aa3-495f-8d7c-21b50d0784a0\n*** Element info: {Using\u003dxpath, value\u003d//input[@placeholder\u003d\u0027Search\u0027]}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat pom.cucumberBDD.framework.pageobjects.LandingPageObjects.getElement(LandingPageObjects.java:124)\r\n\tat pom.cucumberBDD.framework.pageobjects.LandingPageObjects.doIsDisplayed(LandingPageObjects.java:133)\r\n\tat pom.cucumberBDD.framework.pageobjects.LandingPageObjects.ValidateSearchBox(LandingPageObjects.java:222)\r\n\tat pom.cucumberBDD.framework.stepdefs.StepDefs.user_able_to_see_the_search_box(StepDefs.java:183)\r\n\tat ✽.User able to see the search box(classpath:features/Assignment.feature:49)\r\n",
+              "duration": 20044401400,
+              "status": "failed"
+            },
+            "line": 49,
+            "name": "User able to see the search box",
+            "match": {
+              "location": "pom.cucumberBDD.framework.stepdefs.StepDefs.user_able_to_see_the_search_box()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 50,
+            "name": "User search for product \"Dress\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Dress\"",
+                  "offset": 24
+                }
+              ],
+              "location": "pom.cucumberBDD.framework.stepdefs.StepDefs.user_search_for_product(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 51,
+            "name": "User able to see the list of available products",
+            "match": {
+              "location": "pom.cucumberBDD.framework.stepdefs.StepDefs.user_able_to_see_the_list_of_available_products()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 52,
+            "name": "Search product match count must be 5",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 35
+                }
+              ],
+              "location": "pom.cucumberBDD.framework.stepdefs.StepDefs.search_product_match_count_must_be(java.lang.Integer)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@endtoend"
+          },
+          {
+            "name": "@eight"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Navigation to the URL",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "output": [
+              "Browser navigated to URL: http://automationpractice.com/"
+            ],
+            "result": {
+              "duration": 506158600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigated to the landing page url",
+            "match": {
+              "location": "pom.cucumberBDD.framework.stepdefs.StepDefs.user_navigated_to_the_landing_page_url()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-23T11:14:42.627Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3886039500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "pom.cucumberBDD.framework.stepdefs.StepDefs.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 55,
+        "name": "Validate Twitter Social Media Handle",
+        "description": "",
+        "id": "user-can-iteract-with-the-different-functionality-of-application;validate-twitter-social-media-handle",
+        "after": [
+          {
+            "embeddings": [
+              {
+                "data": "iVBORw0KGgoAAAANSUhEUgAABVYAAAKDCAYAAADxbVEAAAAgAElEQVR4XuzdUahsV3kH8Ml7ixjpg1IaMHloqdBCMYoh0oo1IBZpA4nWICkFTQoiRRSThxCCpCGpFCkYE7QNJWINFBFF0BRbDEpifVAQkodYSCnxobQ+6HvqN2WdrrPumr1nzj3nzvfd/A6Umjsze3/7962958z/rFn7mld++bPxQ4AAAQIECBAgQIAAAQIECBAgQIAAAQJ7C1wjWN3byhMJECBAgAABAgQIECBAgAABAgQIECCwFRCsGggECBAgQIAAAQIECBAgQIAAAQIECBA4UECweiCYpxMgQIAAAQIECBAgQIAAAQIECBAgQECwagwQIECAAAECBAgQIECAAAECBAgQIEDgQAHB6oFgnk6AAAECBAgQIECAAAECBAgQIECAAAHBqjFAgAABAgQIECBAgAABAgQIECBAgACBAwUEqweCeToBAgQIECBAgAABAgQIECBAgAABAgQEq8YAAQIECBAgQIAAAQIECBAgQIAAAQIEDhQQrB4I5ukECBAgQIAAAQIECBAgQIAAAQIECBAQrBoDBAgQIECAAAECBAgQIECAAAECBAgQOFBAsHogmKcTIECAAAECBAgQIECAAAECBAgQIEBAsGoMECBAgAABAgQIECBAgAABAgQIECBA4EABweqBYJ5OgAABAgQIECBAgAABAgQIECBAgAABwaoxQIAAAQIECBAgQIAAAQIECBAgQIAAgQMFBKsHgnk6AQIECBAgQIAAAQIECBAgQIAAAQIEBKvGAAECBAgQIECAAAECBAgQIECAAAECBA4UWA1WP/GJT2weeeSRgzb7K7/yK5vf/u3f3rzmNa/Z/PEf//Hmtttu21x77bUHbcOTcwtcc801exf4zW9+c/Oud71r7+f/z//8z+buu+/ePPXUU5vXv/71m69+9aubN7/5zXu//ryf+OUvf3nzl3/5l5uf/vSnmw996EObxx577Lx3sTnkPHvLW96yefbZZ49aQ9v51Xyuf+tb39rccsstlzhflP+hDX3rW9+6ee6559LWd+jxeD4BAgQIECBAgAABAgQIEKgmsBqstgOKkOHOO+/chkv9z8c//vHNww8/vP2nCMSefvrpzf3337954YUXTp6WIRyr1pgK9Ua/77nnns3jjz9+SbkRpH72s5/dXH/9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EKweEd+uCRAgQIAAAQIECBAgQIAAAQIECBCoKSBYrdk3VRMgQIAAAQIECBAgQIAAAQIECBAgcEQBweoR8e2aAAECBAgQIECAAAECBAgQIECAAIGaAoLVmn1TNQECBAgQIECAAAECBAgQIECAAAECRxQQrB4R364JECBAgAABAgQIECBAgAABAgQIEKgpIFit2TdVEyBAgAABAgQIECBAgAABAgQIECBwRAHB6hHx7ZoAAQIECBAgQIAAAQIECBAgQIAAgZoCgtWafVM1AQIECBAgQIAAAQIECBAgQIAAAQJHFBCsHhHfrgkQIECAAAECBAgQIECAAAECBAgQqCkgWK3ZN1UTIECAAAECBAgQIECAAAECBAgQIHBEAcHqEfHtmgABAgQIECBAgAABAgQIECBAgACBmgKC1Zp9UzUBAgQIECBAgAABAgQIECBAgAABAkcUEKweEd+uCRAgQIAAAQIECBAgQIAAAQIECBCoKSBYrdk3VRMgQIAAAQIECBAgQIAAAQIECBAgcEQBweoR8e2aAAECBAgQIECAAAECBAgQIECAAIGaAoLVmn1TNQECBAgQIECAAAECBAgQIECAAAECRxQQrB4R364JECBAgAABAgQIECBAgAABAgQIEKgpsBqsfu5zn9vcfffdi0f3zW9+c/Oud71rc80112weffTRzV133ZVG41vf+tbmlltu2bz44oub66+//qC6PvGJT2weeeSRzSuvvHLQ63Y9+by3dy5FJdtIjKGPf/zjm4cffnhb2e2337555plnNi+//HKySjeb6OeTTz65s7af/OQnmxtuuCHdOXERkMb2Rajm3eZb3/rWbXHPPvts3iIPrOwNb3jD5uabb958+ctfPvCVm83lvPbgnSV+Qft9oX+/PY+xMr4vHEIQ7yFPPfXUJS95/etff+ra/Wq6Xh/it+9z2+9a7ffBfV/XP895dBY1ryFAgAABAgQIEDi2wGqwGoFJ/LSga/zFNz60/MEf/MFJ+JopWG2/6Ef9ZwlWj92cV/v+2wfi8QNwBpcWJO6qrX1Ij1oznRMZ7NRAIJtAvK/99Kc/3dx2220HB6uX89psDpdTT/9H2Gzvt2No2l+f4w+nrteX0/nzea3z6HwcbYUAAQIECBAgQODKC+wVrLZQNcobg9X4QPL0009vZ6lebTNWZ+2I2TfHmKUVIeODDz548Kzb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vN8Tx+U64uhmX9s/7lHbOwECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQmgp2zwAAIABJREFUIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAECBQQEqwWapEQCBAgQIECAAAECBAgQIECAAAECBHIJCFZz9UM1BAgQIECAAAECBAgQIECAAAECBAgUEBCsFmiSEgkQIECAAAECBAgQIECAAAECBAgQyCUgWM3VD9UQIECAAAECBAgQIECAAAECBAgQIFBAQLBaoElKJECAAAECBAgQIECAAAECBAgQIEAgl4BgNVc/VEOAAAECBAgQIECAAAECBAgQIECAQAEBwWqBJimRAAECBAgQIECAAAECBAgQIECAAIFcAoLVXP1QDQECBAgQIECAAAECBAgQIECAAAEC/9uOHdMAAAAgDPPvGhssqQNSvgUEhNXASSYSIECAAAECBAgQIECAAAECBAgQIPAlIKx+/WENAQIECBAgQIAAAQIECBAgQIAAAQIBAWE1cJKJBAgQIECAAAECBAgQIECAAAECBAh8CQirX39YQ4AAAQIECBAgQIAAAQIECBAgQIBAQEBYDZxkIgECBAgQIECAAAECBAgQIECAAAECXwLC6tcf1hAgQIAAAQIECBAgQIAAAQIECBAgEBAQVgMnmUiAAAECBAgQIECAAAECBAgQIECAwJeAsPr1hzUECBAgQIAAAQIECBAgQIAAAQIECAQEhNXASSYSIECAAAECBAgQIECAAAECBAgQIPAlIKx+/WENAQKi+BmHAAAD10lEQVQECBAgQIAAAQIECBAgQIAAAQIBAWE1cJKJBAgQIECAAAECBAgQIECAAAECBAh8CQirX39YQ4AAAQIECBAgQIAAAQIECBAgQIBAQEBYDZxkIgECBAgQIECAAAECBAgQIECAAAECXwLC6tcf1hAgQIAAAQIECBAgQIAAAQIECBAgEBAQVgMnmUiAAAECBAgQIECAAAECBAgQIECAwJeAsPr1hzUECBAgQIAAAQIECBAgQIAAAQIECAQEhNXASSYSIECAAAECBAgQIECAAAECBAgQIPAlIKx+/WENAQIECBAgQIAAAQIECBAgQIAAAQIBAWE1cJKJBAgQIECAAAECBAgQIECAAAECBAh8CQirX39YQ4AAAQIECBAgQIAAAQIECBAgQIBAQEBYDZxkIgECBAgQIECAAAECBAgQIECAAAECXwLC6tcf1hAgQIAAAQIECBAgQIAAAQIECBAgEBAQVgMnmUiAAAECBAgQIECAAAECBAgQIECAwJeAsPr1hzUECBAgQIAAAQIECBAgQIAAAQIECAQEhNXASSYSIECAAAECBAgQIECAAAECBAgQIPAlIKx+/WENAQIECBAgQIAAAQIECBAgQIAAAQIBAWE1cJKJBAgQIECAAAECBAgQIECAAAECBAh8CQirX39YQ4AAAQIECBAgQIAAAQIECBAgQIBAQEBYDZxkIgECBAgQIECAAAECBAgQIECAAAECXwLC6tcf1hAgQIAAAQIECBAgQIAAAQIECBAgEBAQVgMnmUiAAAECBAgQIECAAAECBAgQIECAwJeAsPr1hzUECBAgQIAAAQIECBAgQIAAAQIECAQEhNXASSYSIECAAAECBAgQIECAAAECBAgQIPAlIKx+/WENAQIECBAgQIAAAQIECBAgQIAAAQIBAWE1cJKJBAgQIECAAAECBAgQIECAAAECBAh8CQirX39YQ4AAAQIECBAgQIAAAQIECBAgQIBAQEBYDZxkIgECBAgQIECAAAECBAgQIECAAAECXwLC6tcf1hAgQIAAAQIECBAgQIAAAQIECBAgEBAQVgMnmUiAAAECBAgQIECAAAECBAgQIECAwJeAsPr1hzUECBAgQIAAAQIECBAgQIAAAQIECAQEhNXASSYSIECAAAECBAgQIECAAAECBAgQIPAlIKx+/WENAQIECBAgQIAAAQIECBAgQIAAAQIBAWE1cJKJBAgQIECAAAECBAgQIECAAAECBAh8CQirX39YQ4AAAQIECBAgQIAAAQIECBAgQIBAQEBYDZxkIgECBAgQIECAAAECBAgQIECAAAECXwIDbjhs/aJgjMgAAAAASUVORK5CYII\u003d",
+                "mime_type": "image/png",
+                "name": "Failed Step Name: Validate Twitter Social Media Handle"
+              }
+            ],
+            "result": {
+              "duration": 26917700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "pom.cucumberBDD.framework.stepdefs.StepDefs.takeScreenShot(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "output": [
+              "Browser is quit"
+            ],
+            "result": {
+              "duration": 1102458000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "pom.cucumberBDD.framework.stepdefs.StepDefs.cleanUp()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: Unable to locate element: //li[@class\u003d\u0027twitter\u0027]/a\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-N06IHNQ\u0027, ip: \u0027192.168.3.105\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.2\u0027\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 102.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220705093820, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 8064, moz:profile: C:\\Users\\shital\\AppData\\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 1efa68ee-6194-4fed-b14d-d82d3f917793\n*** Element info: {Using\u003dxpath, value\u003d//li[@class\u003d\u0027twitter\u0027]/a}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat pom.cucumberBDD.framework.pageobjects.LandingPageObjects.getElement(LandingPageObjects.java:124)\r\n\tat pom.cucumberBDD.framework.pageobjects.LandingPageObjects.doIsDisplayed(LandingPageObjects.java:133)\r\n\tat pom.cucumberBDD.framework.pageobjects.LandingPageObjects.ValidateTwitterLogoClickOnIt(LandingPageObjects.java:283)\r\n\tat pom.cucumberBDD.framework.stepdefs.StepDefs.user_see_the_twitter_logo_and_click_on_it(StepDefs.java:212)\r\n\tat ✽.User see the twitter logo and click on it(classpath:features/Assignment.feature:56)\r\n",
+              "duration": 20025179700,
+              "status": "failed"
+            },
+            "line": 56,
+            "name": "User see the twitter logo and click on it",
+            "match": {
+              "location": "pom.cucumberBDD.framework.stepdefs.StepDefs.user_see_the_twitter_logo_and_click_on_it()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 57,
+            "name": "Twitter account name must be match \"Selenium Framework\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Selenium Framework\"",
+                  "offset": 35
+                }
+              ],
+              "location": "pom.cucumberBDD.framework.stepdefs.StepDefs.twitter_account_name_must_be_match(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@endtoend"
+          },
+          {
+            "name": "@nine"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Navigation to the URL",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "output": [
+              "Browser navigated to URL: http://automationpractice.com/"
+            ],
+            "result": {
+              "duration": 23169601600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigated to the landing page url",
+            "match": {
+              "location": "pom.cucumberBDD.framework.stepdefs.StepDefs.user_navigated_to_the_landing_page_url()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-23T11:15:08.186Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3981131200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "pom.cucumberBDD.framework.stepdefs.StepDefs.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 60,
+        "name": "Newslatter Subscription",
+        "description": "",
+        "id": "user-can-iteract-with-the-different-functionality-of-application;newslatter-subscription",
+        "after": [
+          {
+            "output": [
+              "Test case is passed, no screen shot captured"
+            ],
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "pom.cucumberBDD.framework.stepdefs.StepDefs.takeScreenShot(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "output": [
+              "Browser is quit"
+            ],
+            "result": {
+              "duration": 1221832700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "pom.cucumberBDD.framework.stepdefs.StepDefs.cleanUp()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "output": [
+              "News Latter Box Sucessfully validate",
+              "News Latter Button Sucessfully validate"
+            ],
+            "result": {
+              "duration": 5403733800,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "User enter mailID in newslatter box and click on button",
+            "match": {
+              "location": "pom.cucumberBDD.framework.stepdefs.StepDefs.user_enter_mail_id_in_newslatter_box_and_click_on_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "output": [
+              "Validate Sucessfully message for subscription is: Newsletter : You have successfully subscribed to this newsletter."
+            ],
+            "result": {
+              "duration": 5482481400,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "User get the \"successfully subscribed\" massage",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"successfully subscribed\"",
+                  "offset": 13
+                }
+              ],
+              "location": "pom.cucumberBDD.framework.stepdefs.StepDefs.user_get_the_massage(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@endtoend"
+          },
+          {
+            "name": "@ten"
           }
         ]
       }

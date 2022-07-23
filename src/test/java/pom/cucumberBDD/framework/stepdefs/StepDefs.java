@@ -109,7 +109,6 @@ public class StepDefs {
 		landingPageObjects.ValidateProductListByCount(ProductCount);
 	}
 
-
 	@Then("User able to see the productLinkText and verify the associated productLinkUrlText")
 	public void user_able_to_see_the_product_link_text_and_verify_the_associated_product_link_url_text(List<Map<String,String>> proInfo) {
 
@@ -178,73 +177,62 @@ public class StepDefs {
 
 	// *************** Eight Scenario step defs start **************** //
 
-
 	@Given("User able to see the search box")
 	public void user_able_to_see_the_search_box() {
-	   
+
 		landingPageObjects.ValidateSearchBox();
 	}
 
 	@When("User search for product {string}")
 	public void user_search_for_product(String ProductName) {
-		
+
 		landingPageObjects.SearchForGivenProduct(ProductName);
 	}
-	
+
 	@Then("User able to see the list of available products")
 	public void user_able_to_see_the_list_of_available_products() {
-		
+
 		landingPageObjects.SearchProductList();
-	
 	}
-	
+
 	@Then("Search product match count must be {int}")
 	public void search_product_match_count_must_be(Integer MatchProCount) {
-	    
+
 		landingPageObjects.ValidateProductListCount(MatchProCount);
-	
 	}
 
 	// *************** Eight Scenario step defs end **************** //
-	
-	// *************** Nine Scenario step defs start **************** //
 
+	// *************** Nine Scenario step defs start **************** //
 
 	@When("User see the twitter logo and click on it")
 	public void user_see_the_twitter_logo_and_click_on_it() {
-	    
-		
+
+
 		landingPageObjects.ValidateTwitterLogoClickOnIt();
 	}
 
-
 	@Then("Twitter account name must be match {string}")
 	public void twitter_account_name_must_be_match(String AccountName) {
-	    
+
 		landingPageObjects.ValidateTwitterAccName(AccountName);
 	}
 
-
 	// *************** Nine Scenario step defs end **************** //
-	
-	// *************** Ten Scenario step defs start **************** //
 
+	// *************** Ten Scenario step defs start **************** //
 
 	@When("User enter mailID in newslatter box and click on button")
 	public void user_enter_mail_id_in_newslatter_box_and_click_on_button() {
-	   
+
 		landingPageObjects.ValidatenewslatterBoxAndClickOpraction();
 	}
 
-	
 	@Then("User get the {string} massage")
 	public void user_get_the_massage(String Massage) {
-	    
+
 		landingPageObjects.ValidateSuccessfullysubscribedMsg(Massage);
 	}
-	
+
 	// *************** Ten Scenario step defs end **************** //
-
-
-
 }

@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="10" failures="2" name="pom.cucumberBDD.framework.runner.TestRunner" time="505.057" errors="1" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\bin"/>
+    <property name="java.vm.version" value="25.202-b08"/>
+    <property name="browser" value="firefox"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:/Users/shital/.eclipse/org.eclipse.tips.state/CucumberBDD_ShubhamTathe"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\shital\.eclipse\org.eclipse.tips.state\CucumberBDD_ShubhamTathe"/>
+    <property name="java.runtime.version" value="1.8.0_202-b08"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_202\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\shital\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:/Program Files/apache-maven-3.8.4/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_202\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\shital\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\shital\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\Java\jdk1.8.0_202\bin;C:\Program Files\apache-maven-3.8.4\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_212\bin;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;."/>
+    <property name="maven.conf" value="C:/Program Files/apache-maven-3.8.4/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:/Program Files/apache-maven-3.8.4/lib/jansi-native"/>
+    <property name="user.home" value="C:\Users\shital"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="shital"/>
+    <property name="java.class.path" value="C:/Program Files/apache-maven-3.8.4/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_202\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean verify -Dbrowser=firefox"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_202"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_202\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\apache-maven-3.8.4"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="User can iteract with the different functionality of application" name="URL Redirection Test" time="26.638"/>
+  <testcase classname="User can iteract with the different functionality of application" name="Landing Page Title Tset" time="77.164">
+    <failure message="Page Title validation expected:&lt;[My Store]&gt; but was:&lt;[508 Resource Limit Is Reached]&gt;" type="junit.framework.ComparisonFailure">junit.framework.ComparisonFailure: Page Title validation expected:&lt;[My Store]&gt; but was:&lt;[508 Resource Limit Is Reached]&gt;
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at pom.cucumberBDD.framework.pageobjects.LandingPageObjects.validateLandingPageTitle(LandingPageObjects.java:73)
+	at pom.cucumberBDD.framework.stepdefs.StepDefs.landing_page_title_must_be(StepDefs.java:99)
+	at ✽.Landing page title must be &quot;My Store&quot;(classpath:features/Assignment.feature:14)
+</failure>
+    <system-out>
+@endtoend @two
+Scenario: Landing Page Title Tset              # features/Assignment.feature:13
+[INFO ] 2022-07-23 14:30:22.598 [main] WebDriverFactory - Firefox Browser invoked
+[INFO ] 2022-07-23 14:30:22.691 [main] WebDriverFactory - Driver maximized and implicit time out set to 20 seconds
+[INFO ] 2022-07-23 14:30:22.693 [main] StepDefs - Browser invoked.
+[INFO ] 2022-07-23 14:30:23.288 [main] WebDriverFactory - Browser navigated to the url: http://automationpractice.com/
+
+    Browser navigated to URL: http://automationpractice.com/
+
+  Given User navigated to the landing page url # pom.cucumberBDD.framework.stepdefs.StepDefs.user_navigated_to_the_landing_page_url()
+  Given Landing page title must be &quot;My Store&quot;  # pom.cucumberBDD.framework.stepdefs.StepDefs.landing_page_title_must_be(java.lang.String)
+      junit.framework.ComparisonFailure: Page Title validation expected:&lt;[My Store]&gt; but was:&lt;[508 Resource Limit Is Reached]&gt;
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at pom.cucumberBDD.framework.pageobjects.LandingPageObjects.validateLandingPageTitle(LandingPageObjects.java:73)
+	at pom.cucumberBDD.framework.stepdefs.StepDefs.landing_page_title_must_be(StepDefs.java:99)
+	at âœ½.Landing page title must be &quot;My Store&quot;(classpath:features/Assignment.feature:14)
+
+
+    Embedding Failed Step Name: Landing Page Title Tset [image/png 25652 bytes]
+
+[INFO ] 2022-07-23 14:31:34.050 [main] WebDriverFactory - Driver closed
+
+    Browser is quit
+
+</system-out>
+    <system-err>1658566817070	geckodriver	INFO	Listening on 127.0.0.1:44268
+1658566817545	mozrunner::runner	INFO	Running command: &quot;C:\\Program Files\\Mozilla Firefox\\firefox.exe&quot; &quot;--marionette&quot; &quot;-no-remote&quot; &quot;-profile&quot; &quot;C:\\Users\\shital\\AppData\\Local\\Temp\\rust_mozprofileHWTzVF&quot;
+1658566818380	Marionette	INFO	Marionette enabled
+1658566818388	Marionette	INFO	Listening on port 60285
+1658566818879	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: &quot;get: No settings file exists, new profile?&quot; (new NotFoundError(&quot;Could not open the file at C:\\Users\\shital\\AppData\\Local\\Temp\\rust_mozprofileHWTzVF\\search.json.mozlz4&quot;, (void 0)))
+Jul 23, 2022 2:30:22 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1658566823423	Marionette	INFO	Stopped listening on port 60285
+console.log: &quot;RemoteSettingsWorker error: Error: Can&apos;t import when we&apos;ve started shutting down.&quot;
+console.log: &quot;RemoteSettingsWorker error: Error: Can&apos;t import when we&apos;ve started shutting down.&quot;
+console.log: &quot;RemoteSettingsWorker error: Error: Can&apos;t import when we&apos;ve started shutting down.&quot;
+console.log: &quot;RemoteSettingsWorker error: Error: Can&apos;t import when we&apos;ve started shutting down.&quot;
+console.log: &quot;RemoteSettingsWorker error: Error: Can&apos;t import when we&apos;ve started shutting down.&quot;
+console.log: &quot;RemoteSettingsWorker error: Error: Can&apos;t import when we&apos;ve started shutting down.&quot;
+JavaScript error: resource://gre/modules/CrashManager.jsm, line 906: AbortError: IOUtils: Shutting down and refusing additional I/O tasks
+</system-err>
+  </testcase>
+  <testcase classname="User can iteract with the different functionality of application" name="Product Category Validation Test" time="59.633"/>
+  <testcase classname="User can iteract with the different functionality of application" name="Landing Page Application Logo Display Test" time="29.813"/>
+  <testcase classname="User can iteract with the different functionality of application" name="Validate Application Logo Height On Landing Page" time="28.216"/>
+  <testcase classname="User can iteract with the different functionality of application" name="Validate Application Logo Width On Landing Page" time="33.582"/>
+  <testcase classname="User can iteract with the different functionality of application" name="SignIN Page Title Validation Test" time="76.842">
+    <failure message="Page validation Sucessful" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Page validation Sucessful
+	at junit.framework.Assert.fail(Assert.java:57)
+	at junit.framework.Assert.assertTrue(Assert.java:22)
+	at pom.cucumberBDD.framework.pageobjects.LandingPageObjects.VarifyThePage(LandingPageObjects.java:55)
+	at pom.cucumberBDD.framework.stepdefs.StepDefs.user_able_to_see_the_landing_page(StepDefs.java:83)
+	at ✽.User able to see the landing page(classpath:features/Assignment.feature:43)
+</failure>
+    <system-out>
+@endtoend @seven
+Scenario: SignIN Page Title Validation Test                                # features/Assignment.feature:42
+[INFO ] 2022-07-23 14:34:10.805 [main] WebDriverFactory - Firefox Browser invoked
+[INFO ] 2022-07-23 14:34:10.829 [main] WebDriverFactory - Driver maximized and implicit time out set to 20 seconds
+[INFO ] 2022-07-23 14:34:10.829 [main] StepDefs - Browser invoked.
+[INFO ] 2022-07-23 14:34:11.416 [main] WebDriverFactory - Browser navigated to the url: http://automationpractice.com/
+
+    Browser navigated to URL: http://automationpractice.com/
+
+  Given User navigated to the landing page url                             # pom.cucumberBDD.framework.stepdefs.StepDefs.user_navigated_to_the_landing_page_url()
+  Given User able to see the landing page                                  # pom.cucumberBDD.framework.stepdefs.StepDefs.user_able_to_see_the_landing_page()
+      junit.framework.AssertionFailedError: Page validation Sucessful
+	at junit.framework.Assert.fail(Assert.java:57)
+	at junit.framework.Assert.assertTrue(Assert.java:22)
+	at pom.cucumberBDD.framework.pageobjects.LandingPageObjects.VarifyThePage(LandingPageObjects.java:55)
+	at pom.cucumberBDD.framework.stepdefs.StepDefs.user_able_to_see_the_landing_page(StepDefs.java:83)
+	at âœ½.User able to see the landing page(classpath:features/Assignment.feature:43)
+
+  And User Able to See the SignIn button on landing page                   # pom.cucumberBDD.framework.stepdefs.StepDefs.user_able_to_see_the_sign_in_button_on_landing_page()
+  When User click on SignIn Btn next page title must be &quot;Login - My Store&quot; # pom.cucumberBDD.framework.stepdefs.StepDefs.user_click_on_sign_in_btn_next_page_title_must_be(java.lang.String)
+
+    Embedding Failed Step Name: SignIN Page Title Validation Test [image/png 25652 bytes]
+
+[INFO ] 2022-07-23 14:35:22.148 [main] WebDriverFactory - Driver closed
+
+    Browser is quit
+
+</system-out>
+    <system-err>1658567045438	geckodriver	INFO	Listening on 127.0.0.1:12172
+1658567045904	mozrunner::runner	INFO	Running command: &quot;C:\\Program Files\\Mozilla Firefox\\firefox.exe&quot; &quot;--marionette&quot; &quot;-no-remote&quot; &quot;-profile&quot; &quot;C:\\Users\\shital\\AppData\\Local\\Temp\\rust_mozprofilem316e4&quot;
+1658567046696	Marionette	INFO	Marionette enabled
+1658567046703	Marionette	INFO	Listening on port 60599
+1658567047084	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: &quot;get: No settings file exists, new profile?&quot; (new NotFoundError(&quot;Could not open the file at C:\\Users\\shital\\AppData\\Local\\Temp\\rust_mozprofilem316e4\\search.json.mozlz4&quot;, (void 0)))
+Jul 23, 2022 2:34:10 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1658567051662	Marionette	INFO	Stopped listening on port 60599
+[Parent 15228, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+console.log: &quot;RemoteSettingsWorker error: Error: Can&apos;t import when we&apos;ve started shutting down.&quot;
+console.log: &quot;RemoteSettingsWorker error: Error: Can&apos;t import when we&apos;ve started shutting down.&quot;
+console.log: &quot;RemoteSettingsWorker error: Error: Can&apos;t import when we&apos;ve started shutting down.&quot;
+console.log: &quot;RemoteSettingsWorker error: Error: Can&apos;t import when we&apos;ve started shutting down.&quot;
+console.log: &quot;RemoteSettingsWorker error: Error: Can&apos;t import when we&apos;ve started shutting down.&quot;
+JavaScript error: resource://gre/modules/CrashManager.jsm, line 906: AbortError: IOUtils: Shutting down and refusing additional I/O tasks
+</system-err>
+  </testcase>
+  <testcase classname="User can iteract with the different functionality of application" name="Search product By Any Name and Validate How Many Product Matches With Name" time="68.745">
+    <error message="Expected condition failed: waiting for visibility of all [] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-N06IHNQ&apos;, ip: &apos;192.168.3.105&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_202&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 102.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220705093820, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 11552, moz:profile: C:\Users\shital\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d3522766-fbba-48bd-a6db-3923c170c6f3" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all [] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-N06IHNQ&apos;, ip: &apos;192.168.3.105&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_202&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 102.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220705093820, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 11552, moz:profile: C:\Users\shital\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d3522766-fbba-48bd-a6db-3923c170c6f3
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at pom.cucumberBDD.framework.pageobjects.LandingPageObjects.SearchProductList(LandingPageObjects.java:244)
+	at pom.cucumberBDD.framework.stepdefs.StepDefs.user_able_to_see_the_list_of_available_products(StepDefs.java:197)
+	at ✽.User able to see the list of available products(classpath:features/Assignment.feature:51)
+</error>
+    <system-out>
+@endtoend @eight
+Scenario: Search product By Any Name and Validate How Many Product Matches With Name # features/Assignment.feature:48
+[INFO ] 2022-07-23 14:35:27.513 [main] WebDriverFactory - Firefox Browser invoked
+[INFO ] 2022-07-23 14:35:27.545 [main] WebDriverFactory - Driver maximized and implicit time out set to 20 seconds
+[INFO ] 2022-07-23 14:35:27.546 [main] StepDefs - Browser invoked.
+[INFO ] 2022-07-23 14:35:47.886 [main] WebDriverFactory - Browser navigated to the url: http://automationpractice.com/
+
+    Browser navigated to URL: http://automationpractice.com/
+
+  Given User navigated to the landing page url                                       # pom.cucumberBDD.framework.stepdefs.StepDefs.user_navigated_to_the_landing_page_url()
+
+    Search Box is Displayed and validate Successfully
+
+[INFO ] 2022-07-23 14:35:47.994 [main] LandingPageObjects - Search Box is Displayed and validate Successfully
+  Given User able to see the search box                                              # pom.cucumberBDD.framework.stepdefs.StepDefs.user_able_to_see_the_search_box()
+
+    Dress:is Search Product Name
+
+[INFO ] 2022-07-23 14:35:48.102 [main] LandingPageObjects - Dress:is Search Product Name
+  When User search for product &quot;Dress&quot;                                               # pom.cucumberBDD.framework.stepdefs.StepDefs.user_search_for_product(java.lang.String)
+  Then User able to see the list of available products                               # pom.cucumberBDD.framework.stepdefs.StepDefs.user_able_to_see_the_list_of_available_products()
+      org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all [] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-N06IHNQ&apos;, ip: &apos;192.168.3.105&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_202&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 102.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220705093820, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 11552, moz:profile: C:\Users\shital\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d3522766-fbba-48bd-a6db-3923c170c6f3
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at pom.cucumberBDD.framework.pageobjects.LandingPageObjects.SearchProductList(LandingPageObjects.java:244)
+	at pom.cucumberBDD.framework.stepdefs.StepDefs.user_able_to_see_the_list_of_available_products(StepDefs.java:197)
+	at âœ½.User able to see the list of available products(classpath:features/Assignment.feature:51)
+
+  And Search product match count must be 5                                           # pom.cucumberBDD.framework.stepdefs.StepDefs.search_product_match_count_must_be(java.lang.Integer)
+
+    Embedding Failed Step Name: Search product By Any Name and Validate How Many Product Matches With Name [image/png 721827 bytes]
+
+[INFO ] 2022-07-23 14:36:30.894 [main] WebDriverFactory - Driver closed
+
+    Browser is quit
+
+</system-out>
+    <system-err>1658567122292	geckodriver	INFO	Listening on 127.0.0.1:48311
+1658567122749	mozrunner::runner	INFO	Running command: &quot;C:\\Program Files\\Mozilla Firefox\\firefox.exe&quot; &quot;--marionette&quot; &quot;-no-remote&quot; &quot;-profile&quot; &quot;C:\\Users\\shital\\AppData\\Local\\Temp\\rust_mozprofile0HoZ1I&quot;
+1658567123535	Marionette	INFO	Marionette enabled
+1658567123542	Marionette	INFO	Listening on port 60638
+1658567124070	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: &quot;get: No settings file exists, new profile?&quot; (new NotFoundError(&quot;Could not open the file at C:\\Users\\shital\\AppData\\Local\\Temp\\rust_mozprofile0HoZ1I\\search.json.mozlz4&quot;, (void 0)))
+Jul 23, 2022 2:35:27 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1658567188720	Marionette	INFO	Stopped listening on port 60638
+</system-err>
+  </testcase>
+  <testcase classname="User can iteract with the different functionality of application" name="Validate Twitter Social Media Handle" time="41.974"/>
+  <testcase classname="User can iteract with the different functionality of application" name="Newslatter Subscription" time="62.45"/>
+</testsuite>

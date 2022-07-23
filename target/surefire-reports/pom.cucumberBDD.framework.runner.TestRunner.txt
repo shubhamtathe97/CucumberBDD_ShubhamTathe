@@ -1,0 +1,32 @@
+-------------------------------------------------------------------------------
+Test set: pom.cucumberBDD.framework.runner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 2, Errors: 1, Skipped: 0, Time elapsed: 510.918 sec <<< FAILURE!
+Landing Page Title Tset(User can iteract with the different functionality of application)  Time elapsed: 77.164 sec  <<< FAILURE!
+junit.framework.ComparisonFailure: Page Title validation expected:<[My Store]> but was:<[508 Resource Limit Is Reached]>
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at pom.cucumberBDD.framework.pageobjects.LandingPageObjects.validateLandingPageTitle(LandingPageObjects.java:73)
+	at pom.cucumberBDD.framework.stepdefs.StepDefs.landing_page_title_must_be(StepDefs.java:99)
+	at ?.Landing page title must be "My Store"(classpath:features/Assignment.feature:14)
+
+SignIN Page Title Validation Test(User can iteract with the different functionality of application)  Time elapsed: 76.842 sec  <<< FAILURE!
+junit.framework.AssertionFailedError: Page validation Sucessful
+	at junit.framework.Assert.fail(Assert.java:57)
+	at junit.framework.Assert.assertTrue(Assert.java:22)
+	at pom.cucumberBDD.framework.pageobjects.LandingPageObjects.VarifyThePage(LandingPageObjects.java:55)
+	at pom.cucumberBDD.framework.stepdefs.StepDefs.user_able_to_see_the_landing_page(StepDefs.java:83)
+	at ?.User able to see the landing page(classpath:features/Assignment.feature:43)
+
+Search product By Any Name and Validate How Many Product Matches With Name(User can iteract with the different functionality of application)  Time elapsed: 68.745 sec  <<< ERROR!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all [] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-N06IHNQ', ip: '192.168.3.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 102.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220705093820, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 11552, moz:profile: C:\Users\shital\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d3522766-fbba-48bd-a6db-3923c170c6f3
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at pom.cucumberBDD.framework.pageobjects.LandingPageObjects.SearchProductList(LandingPageObjects.java:244)
+	at pom.cucumberBDD.framework.stepdefs.StepDefs.user_able_to_see_the_list_of_available_products(StepDefs.java:197)
+	at ?.User able to see the list of available products(classpath:features/Assignment.feature:51)
+

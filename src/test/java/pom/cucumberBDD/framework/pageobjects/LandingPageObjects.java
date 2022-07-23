@@ -104,10 +104,9 @@ public class LandingPageObjects {
 
 		WebElement ProListElement2 = driver.findElement(By.xpath("//ul[@class='sf-menu clearfix menu-content sf-js-enabled sf-arrows']/li/a[text()='"+productTextHyperLink+"']"));
 		wait =new WebDriverWait(driver, 20);
-		wait.until(ExpectedConditions.visibilityOf(ProListElement2));
-		
+		wait.until(ExpectedConditions.visibilityOf(ProListElement2));		
 		ProListElement2.click();
-
+		
 		wait.until(ExpectedConditions.urlContains(productUrlText));
 		if(driver.getCurrentUrl().contains(productUrlText)) {
 			Assert.assertTrue(true);
@@ -265,10 +264,11 @@ public class LandingPageObjects {
 		for(int i=0; i<prolist.size(); i++) {
 
 			if(prolist.get(i).getText().contains(Searchproduct)) {
-
-				System.out.println((i+1)+" "+prolist.get(i).getText());
-				logger.info(i+1 +". "+ prolist.get(i).getText());
-        		scn.log(i+1 +". "+ prolist.get(i).getText());
+				
+				Assert.assertEquals("Product Not Match",true, prolist.get(i).getText().contains(Searchproduct));
+				System.out.println((i+1)+"."+prolist.get(i).getText());
+				logger.info((i+1) +"."+ prolist.get(i).getText());
+        		scn.log((i+1) +"."+ prolist.get(i).getText());
 				ActaulMatchCount++;
 			}			
 		}
@@ -316,24 +316,24 @@ public class LandingPageObjects {
 	public String randomStringGenerator()
 	{
 		Random rand = new Random();
-		String randomName = "";
-
-		for (int i = 0; i < 10; i++) 
-		{
-			char characterRandom = (char)(rand.nextInt(26)+97);
-			if (rand.nextBoolean()) {
-				characterRandom = Character.toUpperCase(characterRandom);
-				randomName = randomName + characterRandom;
-			}	
-		}	
+		char s;
+		String randomName ="";
+		
+		for(int i = 0; i < 10; i++) {
+			s =  (char)(rand.nextInt(26)+97);
+			randomName += s;
+			}
+		
+		randomName=randomName+"@gmail.com";
 		return randomName;
 	}
 
 	// Scenario-10
 	public void ValidatenewslatterBoxAndClickOpraction() {
-		String MailId="shubhamtathe44@gmail.com";
+		
 		Assert.assertEquals("News Latter Box Does not Display",true, doIsDisplayed(NewlatterBoxElment));
-		getElement(NewlatterBoxElment).sendKeys(MailId);
+		getElement(NewlatterBoxElment).sendKeys(randomStringGenerator());
+		
 		scn.log("News Latter Box Sucessfully validate");
 		logger.info("News Latter Box Sucessfully validate");
 
@@ -352,14 +352,16 @@ public class LandingPageObjects {
 		try 
 		{
 			WebElement SubscriSussMag= driver.findElement(SubscriMsgElement);
-			SubscriSussMag.getText().contains(ExpMsg);
+			Assert.assertEquals("Success Massage Not Match",true, SubscriSussMag.getText().contains(ExpMsg));
+		//	SubscriSussMag.getText().contains(ExpMsg);
 			logger.info("Validate Sucessfully message for subscription is: "+ SubscriSussMag.getText());
 			scn.log("Validate Sucessfully message for subscription is: "+ SubscriSussMag.getText());
 		} 
 		catch(Exception e)
 		{
 			WebElement SubscriFailesdMag= driver.findElement(failSubscriMsgElement);
-			SubscriFailesdMag.getText().equals(failMSG);
+			Assert.assertEquals("Error Massage Not Match",true, SubscriFailesdMag.getText().equals(failMSG));
+		//	SubscriFailesdMag.getText().equals(failMSG);
 			logger.info("Validate Failed message for subscription is: "+SubscriFailesdMag.getText());
 			scn.log("Validate Failed message for subscription is: "+SubscriFailesdMag.getText());
 		}
